@@ -2,12 +2,16 @@ body {
   background-image: url(./Images/lilypads.png);
 }
 
-p {
+button {
+  outline: none;
+}
+
+/* p {
   border: 1px solid black;
   padding: 20px;
   margin: 0 auto;
   text-align: center;
-}
+} */
 
 .components {
   display: flex;

@@ -1,3 +1,11 @@
-#navbar p {
-    color: red;
+.mr-2:hover {
+    background-color: #FAFAFA;
 }
+.mr-2:focus {
+    outline: none;
+  }
+
+  #navbar {
+    background-color: #F2F2F2;
+    border-bottom: 1px solid rgb(188, 188, 188);
+  }

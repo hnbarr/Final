@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
-import NavComponent from './Components/NavComponent/nav';
-import LeftComponent from './Components/LeftComponent/left';
-import CenterComponent from './Components/CenterComponent/center';
-import RightComponent from './Components/RightComponent/right';
+import NavComponent from './Components/NavComponent/Nav';
+import WelcomeComponent from './Components/WelcomeComponent/Welcome';
+import LeftComponent from './Components/LeftComponent/Left';
+import CenterComponent from './Components/CenterComponent/Center';
+import RightComponent from './Components/RightComponent/Right';
 
 function App() {
   return (
     <div className="App">
       <NavComponent className='component'/>
+      <WelcomeComponent />
       <div className='components'>
         <LeftComponent className='component'/>
         <CenterComponent className='component'/>

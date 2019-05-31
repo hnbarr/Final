@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import './right.css'
+import './Right.css'
 
 export default class RightComponent extends Component {
     render() {
         return (
             <div id='right'>
-                <p>RIGHT</p>
+                <section id='right-top'>
+                    <p>TOP</p>
+                </section>
+
+                <section id='right-bottom'>
+                    <p>BOTTOM</p>
+                </section>
             </div>
         )
     }

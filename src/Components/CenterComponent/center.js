@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
-import './center.css'
+import './Center.css'
 
 export default class CenterComponent extends Component {
     render() {
         return (
             <div id='center'>
-               <p>CENTER</p> 
+               <section id='center-top'>
+                    <p>TOP</p>
+                </section>
+
+                <section id='center-bottom'>
+                    <p>BOTTOM</p>
+                </section> 
             </div>
         )
     }
