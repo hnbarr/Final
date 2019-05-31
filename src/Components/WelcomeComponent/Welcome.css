@@ -1,3 +1,19 @@
 .jumbo {
-    background-color: #F2F2F2 !important;
+    /* background-color: #F2F2F2 !important; */
+    background-color: transparent !important;
+    box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
+}
+
+.lead {
+    margin-top: 5px;
+}
+
+.jumbo button {
+    float: right;
+    margin: 10px;
+    background-color: rgb(188, 188, 188);
+}
+
+.jumbo button:focus{
+    outline: none;
 }

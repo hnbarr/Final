@@ -1,19 +1,21 @@
 import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+import { Jumbotron, Container, Button } from 'reactstrap';
 import './Welcome.css'
 
-const Example = (props) => {
+const Welcome = (props) => {
   return (
     <div>
       <Jumbotron className='jumbo' fluid>
+      <Button size="sm"><i className="fas fa-times"></i></Button> 
+      {/* {need to make to hide or show this component} */}
         <Container fluid>
-          <h1 className="display-3">Welcome Y'all!</h1>
-          <p className="lead">This is a free resource made for ACA students, by an ACA student!</p>
-          <p>Here you will be able to find some awesome resourses, such as; articles from Medium, educational videos from Youtube and Daily Practice Whiteboarding Questions!</p>
+          <h1 className="display-3">Hi, I'm Tudy!</h1>
+          <p className="lead">I'm here to help you, as I'm a free resource made for ACA students, by an ACA student!</p>
+          <p className="lead">Here you will be able to find some awesome resourses, such as; articles from Medium, educational videos from Youtube and Daily Practice Whiteboarding Questions!</p>
         </Container>
       </Jumbotron>
     </div>
   );
 };
 
-export default Example;
+export default Welcome;

@@ -6,13 +6,6 @@ button {
   outline: none;
 }
 
-/* p {
-  border: 1px solid black;
-  padding: 20px;
-  margin: 0 auto;
-  text-align: center;
-} */
-
 .components {
   display: flex;
   flex-direction: row;
@@ -20,5 +13,7 @@ button {
 
 
 #left, #right, #center  {
-  width: calc(100% / 3);
+  /* width: calc(100% / 3); */
+  height: 50vh;
+  box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
 }

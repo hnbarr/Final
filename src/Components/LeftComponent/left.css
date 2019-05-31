@@ -1,3 +1,12 @@
-#left p {
-    color: pink;
+#left{
+    color: orangered;
+    width: 30%;
+}
+
+#left-top{
+    height: 30%;
+}
+
+#left-bottom{
+    height: 70%;
 }

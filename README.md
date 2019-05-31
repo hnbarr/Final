@@ -17,13 +17,17 @@ IDEAS:
         --medium api to show stories on javascript.
         --youtube to watch tutorials.
         --google trend api to populate stats on javascript?
+        --eventbrite api to see all aca events!
+        --api to generate random greetings, so i can make my jumbotron change greetings! haha how fun.
+      DB Ideas: 
+        --create database with interview questinos to register through adn populate one a day! Randomizer!
       
 
 
 MUST HAVES;
-React:
+React: 
     -outline/layout
     -react router
-Redux: 
-API:
-DB:
+Redux: idfk!? >_<
+API: lots!
+DB: Whiteboarding

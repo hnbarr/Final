@@ -32,7 +32,7 @@ export default class NavComponent extends Component {
                             <NavLink href="https://github.com/AustinCodingAcademy">GitHub</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://austincodingacademy.com/">ACA</NavLink>
+                            <NavLink href="https://campus.austincodingacademy.com/">Campus Manager</NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
@@ -40,16 +40,16 @@ export default class NavComponent extends Component {
                             </DropdownToggle>
                             <DropdownMenu right>
                             <DropdownItem>
-                                <NavLink href="/api here for medium">Articles</NavLink>
+                                <NavLink href="/api here for medium"><i className="fas fa-book-open"></i> Articles</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/api here for youtube">Videos</NavLink>
+                                <NavLink href="/api here for youtube"><i className="fab fa-youtube"></i> Videos</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/api here for whiteboarding">Whiteboarding</NavLink>
+                                <NavLink href="/api here for whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/guide on how to nav through this site!">Help</NavLink>
+                                <NavLink href="/guide on how to nav through this site!"><i className="fas fa-info-circle"></i> Help</NavLink>
                             </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>

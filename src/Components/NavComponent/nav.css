@@ -8,4 +8,8 @@
   #navbar {
     background-color: #F2F2F2;
     border-bottom: 1px solid rgb(188, 188, 188);
+    position: fixed;
+    width: 100vw;
   }
+
+ 
