@@ -4,7 +4,7 @@ final project ideas!
 trying something different, as in an interactive portfolio!
 
 IDEAS:
-    Some sort of personal dashboard. This is something i'd be using everyday after graduation. 
+    Some sort of public dashboard. This is something i'd be using everyday after graduation. 
     The goal is to help keep me motivated and to hold myself accountable.
     If I access user accounts, this could be kindof like a ACA grad social media?
     Instead of wasting time scrolling through facebook, scroll through stories about tech in mediium, 

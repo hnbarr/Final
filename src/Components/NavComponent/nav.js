@@ -24,7 +24,7 @@ export default class NavComponent extends Component {
         return (
             <div id='navbar'>
             <Navbar light expand="md">
-                <NavbarBrand href="/">JS Advanced Assist</NavbarBrand>
+                <NavbarBrand href="/">ACA Assist</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
