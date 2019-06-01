@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Center.css'
+import './main.css'
 
 export default class CenterComponent extends Component {
     render() {

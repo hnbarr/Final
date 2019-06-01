@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Right.css'
+import './main.css'
 
 export default class RightComponent extends Component {
     render() {

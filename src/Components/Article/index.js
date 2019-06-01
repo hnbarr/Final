@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import './Left.css'
+import './main.css'
 
-export default class LeftComponent extends Component {
+export default class Articles extends Component {
     render() {
         return (
             <div id='left'>

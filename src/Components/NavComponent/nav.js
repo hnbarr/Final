@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Nav.css';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-
+import {Link} from 'react-router-dom'
 
 export default class NavComponent extends Component {
     constructor(props) {
@@ -40,16 +40,16 @@ export default class NavComponent extends Component {
                             </DropdownToggle>
                             <DropdownMenu right>
                             <DropdownItem>
-                                <NavLink href="/api here for medium"><i className="fas fa-book-open"></i> Articles</NavLink>
+                                <Link to="/articles"><i className="fas fa-book-open"></i> Articles</Link>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/api here for youtube"><i className="fab fa-youtube"></i> Videos</NavLink>
+                                <Link to="/videos"><i className="fab fa-youtube"></i> Videos</Link>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/api here for whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>
+                                <Link to="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</Link>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/guide on how to nav through this site!"><i className="fas fa-info-circle"></i> Help</NavLink>
+                                <Link to="/help"><i className="fas fa-info-circle"></i> Help</Link>
                             </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
