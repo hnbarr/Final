@@ -40,16 +40,16 @@ export default class NavComponent extends Component {
                             </DropdownToggle>
                             <DropdownMenu right>
                             <DropdownItem>
-                                <Link to="/articles"><i className="fas fa-book-open"></i> Articles</Link>
+                                <NavLink href="/articles"><i className="fas fa-book-open"></i> Articles</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <Link to="/videos"><i className="fab fa-youtube"></i> Videos</Link>
+                                <NavLink href="/videos"><i className="fab fa-youtube"></i> Videos</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <Link to="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</Link>
+                                <NavLink href="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <Link to="/help"><i className="fas fa-info-circle"></i> Help</Link>
+                                <NavLink href="/help"><i className="fas fa-info-circle"></i> Help</NavLink>
                             </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
