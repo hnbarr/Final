@@ -11,8 +11,8 @@ const Router = () => {
         <Switch>
             <Route exact path='/' component={Welcome}></Route>
             <Route path='/articles' component={Article}></Route>
-            <Route exact path='/videos' component={Media}></Route>
-            <Route exact path='/whiteboarding' component={Whiteboard}></Route>
+            <Route path='/videos' component={Media}></Route>
+            <Route path='/whiteboarding' component={Whiteboard}></Route>
         </Switch>
     );
 }

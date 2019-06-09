@@ -29,27 +29,27 @@ export default class NavComponent extends Component {
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="https://github.com/AustinCodingAcademy">GitHub</NavLink>
+                            <NavLink href="https://github.com/AustinCodingAcademy"> <i className="fab fa-github"></i> GitHub</NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink href="https://campus.austincodingacademy.com/">Campus Manager</NavLink>
-                        </NavItem>
+                        {/* took out campus manager here */}
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Resources
                             </DropdownToggle>
                             <DropdownMenu right>
+                            {/* took out articles and videos here */}
                             <DropdownItem>
-                                <NavLink href="/articles"><i className="fas fa-book-open"></i> Articles</NavLink>
-                            </DropdownItem>
-                            <DropdownItem>
-                                <NavLink href="/videos"><i className="fab fa-youtube"></i> Videos</NavLink>
+                                <NavLink href="https://austincodingacademy.com/forum/"> <i className="fas fa-users"></i> Hack Overflow</NavLink>
                             </DropdownItem>
                             <DropdownItem>
                                 <NavLink href="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/help"><i className="fas fa-info-circle"></i> Help</NavLink>
+                                <NavLink href="https://campus.austincodingacademy.com/"> <i className="fas fa-book-open"></i> Campus Manager</NavLink>
+                            </DropdownItem>
+
+                            <DropdownItem>
+                                <NavLink href="/account"> <i className="fas fa-user-alt"></i> My Account</NavLink>
                             </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
@@ -60,3 +60,16 @@ export default class NavComponent extends Component {
         )
     }
 }
+
+
+
+{/* <DropdownItem>
+    <NavLink href="/articles"><i className="fas fa-book-open"></i> Articles</NavLink>
+</DropdownItem>
+<DropdownItem>
+    <NavLink href="/videos"><i className="fab fa-youtube"></i> Videos</NavLink>
+</DropdownItem> */}
+
+{/* <NavItem>
+    <NavLink href="https://campus.austincodingacademy.com/">Campus Manager</NavLink>
+</NavItem> */}

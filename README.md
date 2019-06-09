@@ -43,3 +43,8 @@ React:
 Redux: idfk!? >_<
 API: lots!
 DB: Whiteboarding
+
+
+still need to make:
+-help page
+-saved page
