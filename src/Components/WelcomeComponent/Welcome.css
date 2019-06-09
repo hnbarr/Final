@@ -2,6 +2,7 @@
     /* background-color: #F2F2F2 !important; */
     background-color: transparent !important;
     box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
+    padding-top: 20px;
 }
 
 .text {
@@ -11,7 +12,7 @@
 .jumbo button {
     float: right;
     margin: 10px;
-    background-color: rgb(188, 188, 188);
+    outline: none;
 }
 
 .jumbo button:focus{
@@ -21,4 +22,9 @@
 #focus_field {
     outline: none;
     width: 350px;
+}
+
+.jumbo .text_slant {
+    font-size: 13px;
+    float: right;
 }

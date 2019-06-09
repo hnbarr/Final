@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Nav.css';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 export default class NavComponent extends Component {
     constructor(props) {
