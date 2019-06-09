@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import './main.css'
 
-export default class RightComponent extends Component {
+export default class Whiteboard extends Component {
     render() {
         return (
-            <div id='right'>
-                <section id='right-top'>
+            <div id='whiteboard'>
+                <section id='whiteboard-top'>
                     <p>TOP</p>
+                    <p>White boarding question of the day!</p>
+                    <p>api data to generate a random question for students to work on</p>
                 </section>
 
-                <section id='right-bottom'>
+                <section id='whiteboard-bottom'>
                     <p>BOTTOM</p>
                 </section>
             </div>

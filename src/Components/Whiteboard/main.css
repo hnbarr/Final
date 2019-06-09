@@ -1,12 +1,13 @@
-#right{
+#whiteboard{
     /* color: purple; */
-    width: 30%;
+    /* width: 30%; */
+    padding-top: 5%;
 }
 
-#right-top{
+#whiteboard-top{
     height: 30%;
 }
 
-#right-bottom{
+#whiteboard-bottom{
     height: 70%;
 }

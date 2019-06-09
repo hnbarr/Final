@@ -4,12 +4,12 @@ import './main.css'
 export default class Articles extends Component {
     render() {
         return (
-            <div id='left'>
-                <section id='left-top'>
+            <div id='article'>
+                <section id='article-top'>
                     <p>TOP</p>
                 </section>
 
-                <section id='left-bottom'>
+                <section id='article-bottom'>
                     <p>BOTTOM</p>
                 </section>
             </div>

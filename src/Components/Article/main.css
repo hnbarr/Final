@@ -1,12 +1,13 @@
-#left{
+#article{
     /* color: orangered; */
-    width: 30%;
+    /* width: 30%; */
+    padding-top: 5%;
 }
 
-#left-top{
+#article-top{
     height: 30%;
 }
 
-#left-bottom{
+#article-bottom{
     height: 70%;
 }

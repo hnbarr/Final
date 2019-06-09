@@ -14,6 +14,6 @@ button {
 
 #left, #right, #center  {
   /* width: calc(100% / 3); */
-  height: 50vh;
+  /* height: 50vh; */
   box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
 }

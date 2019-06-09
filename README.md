@@ -4,9 +4,8 @@ final project ideas!
 trying something different, as in an interactive portfolio!
 
 IDEAS:
-    Some sort of public dashboard. This is something i'd be using everyday after graduation. 
-    The goal is to help keep me motivated and to hold myself accountable.
-    If I access user accounts, this could be kindof like a ACA grad social media?
+    Some sort of public dashboard. This is something we'd be using everyday after graduation. 
+    The goal is to help keep students motivated, stay in the loop and to practice more.
     Instead of wasting time scrolling through facebook, scroll through stories about tech in mediium, 
     or watch videos from youtube on tech right in one space, and keep up with old classmates?
       
@@ -23,6 +22,8 @@ IDEAS:
 
 new ideas. 
 USER ACCOUNTS REQUIRED
+  -however, no users will be able to interact with each other. 
+  -only users can see their own profile. 
 Name: myAmStandUp 
   (stand up being the reglatory meeting every am in development jobs)
 Features:
@@ -32,6 +33,8 @@ Features:
   -articles section, here will populate 5 most recent articles regarding your focus. (pagigation for pages, max 12 results)
   -videos section, here will populate top 3 results of your  focus. (pagigation for pages, max 12 results)
   -community- FULL PAGE (eventbrite api: set for aca, and only tech related, etc...)
+  -profile-- FULL PAGE (name, github, saved, focus, settings)
+
 
 MUST HAVES;
 React: 
