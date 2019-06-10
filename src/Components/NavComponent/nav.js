@@ -24,14 +24,20 @@ export default class NavComponent extends Component {
         return (
             <div id='navbar'>
             <Navbar light expand="md">
-                <NavbarBrand href="/">stand up</NavbarBrand>
+                <NavbarBrand href="/"> <i className="fas fa-chevron-up"></i> &nbsp; stand up</NavbarBrand>
+                
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
+                
                     <Nav className="ml-auto" navbar>
+                
                         <NavItem>
                             <NavLink href="https://github.com/AustinCodingAcademy"> <i className="fab fa-github"></i> GitHub</NavLink>
                         </NavItem>
                         {/* took out campus manager here */}
+                        <NavItem>
+                            <NavLink href="https://campus.austincodingacademy.com/">Campus Manager</NavLink>
+                        </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Resources
@@ -39,17 +45,23 @@ export default class NavComponent extends Component {
                             <DropdownMenu right>
                             {/* took out articles and videos here */}
                             <DropdownItem>
-                                <NavLink href="https://austincodingacademy.com/forum/"> <i className="fas fa-users"></i> Hack Overflow</NavLink>
+                            <NavLink href="/articles"><i className="fab fa-medium-m"></i> Articles</NavLink>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <NavLink href="/videos"><i className="fab fa-youtube"></i> Videos</NavLink>
                             </DropdownItem>
                             <DropdownItem>
                                 <NavLink href="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="https://campus.austincodingacademy.com/"> <i className="fas fa-book-open"></i> Campus Manager</NavLink>
+                                <NavLink href="https://austincodingacademy.com/forum/"> <i className="fas fa-laptop-code"></i> Hack Overflow</NavLink>
                             </DropdownItem>
-
+                            {/* <DropdownItem>
+                                <NavLink href="https://campus.austincodingacademy.com/"> <i className="fas fa-book-open"></i> Campus Manager</NavLink>
+                            </DropdownItem> */}
+                            <DropdownItem divider />
                             <DropdownItem>
-                                <NavLink href="/account"> <i className="fas fa-user-alt"></i> My Account</NavLink>
+                                <NavLink href="/account"> <i className="far fa-user-circle"></i> My Account</NavLink>
                             </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>

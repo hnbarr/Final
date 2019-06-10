@@ -24,7 +24,7 @@ new ideas.
 USER ACCOUNTS REQUIRED
   -however, no users will be able to interact with each other. 
   -only users can see their own profile. 
-Name: myAmStandUp 
+Name: _stand up 
   (stand up being the reglatory meeting every am in development jobs)
 Features:
   -focus setting. Here you can set the "mood" for your page by selecting what you want to review (eg. react)

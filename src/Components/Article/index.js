@@ -11,6 +11,7 @@ export default class Articles extends Component {
 
                 <section id='article-bottom'>
                     <p>BOTTOM</p>
+                    <p>populate articles here!</p>
                 </section>
             </div>
         )

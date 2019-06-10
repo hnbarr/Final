@@ -30,10 +30,10 @@ const Welcome = (props) => {
        </Container>
       </Jumbotron>
 
-      <section id='media_bottom'>
+      {/* <section id='media_bottom'>
         <Articles />
         <Media />
-      </section>
+      </section> */}
     </div>
   );
 };

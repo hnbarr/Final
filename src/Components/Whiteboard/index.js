@@ -8,6 +8,7 @@ export default class Whiteboard extends Component {
                 <section id='whiteboard-top'>
                     <p>TOP</p>
                     <p>White boarding question of the day!</p>
+                    <i id='board' className="far fa-edit fa-5x"></i>
                     <p>api data to generate a random question for students to work on</p>
                 </section>
 
