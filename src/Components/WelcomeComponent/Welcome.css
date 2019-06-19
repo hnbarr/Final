@@ -2,7 +2,7 @@
     /* background-color: #F2F2F2 !important; */
     background-color: transparent !important;
     box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .text {
@@ -10,15 +10,20 @@
 }
 
 .jumbo button {
-    float: right;
     margin: 10px;
-    outline: none;
 }
 
+/* #left {
+    width: 40%;
+}
+
+#right {
+    width: 40%;
+} */
 
 #focus_field {
     outline: none;
-    width: 400px;
+    width: 300px;
 }
 
 .jumbo .text_slant {
@@ -27,8 +32,8 @@
 }
 
 
-#media_bottom {
+/* #media_bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
+} */

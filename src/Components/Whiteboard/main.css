@@ -1,7 +1,9 @@
 #whiteboard{
     /* color: purple; */
     /* width: 30%; */
-    padding-top: 5%;
+    padding: 5%;
+    width: 40%;
+    box-shadow: 0 8px 6px -6px rgb(188, 188, 188);
 }
 
 #whiteboard-top{

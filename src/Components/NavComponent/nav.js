@@ -36,7 +36,7 @@ export default class NavComponent extends Component {
                         </NavItem>
                         {/* took out campus manager here */}
                         <NavItem>
-                            <NavLink href="https://campus.austincodingacademy.com/">Campus Manager</NavLink>
+                            <NavLink href="/link-to-resume"> <i className="far fa-file"></i> Resume</NavLink>
                         </NavItem>
                         <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
@@ -48,7 +48,7 @@ export default class NavComponent extends Component {
                             <NavLink href="/articles"><i className="fab fa-medium-m"></i> Articles</NavLink>
                             </DropdownItem>
                             <DropdownItem>
-                                <NavLink href="/videos"><i className="fab fa-youtube"></i> Videos</NavLink>
+                                <NavLink href="/videos"><i className="fab fa-youtube"></i> Vidoes</NavLink>
                             </DropdownItem>
                             <DropdownItem>
                                 <NavLink href="/whiteboarding"><i className="fas fa-highlighter"></i> Whiteboarding</NavLink>

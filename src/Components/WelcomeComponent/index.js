@@ -1,32 +1,31 @@
 import React from 'react';
 import { Jumbotron, Container, Button } from 'reactstrap';
 import './Welcome.css'
-import Articles from '../Article';
-import Media from '../Media';
+// import Articles from '../Article';
+// import Media from '../Media';
 
 const Welcome = (props) => {
-  
-  const handleDelete = (e) => {
-    console.log('need to delete this button:', e.target)
+  const handleClick = (e) => {
+    console.log('need to navigate to this section:', e.target)
   }
 
   return (
     <div>
       <Jumbotron className='jumbo' fluid>
         <Container fluid>
-        
           <h1 className="display-3">Hi, Heather.</h1>
-          <Button onClick={handleDelete} outline color="secondary">Focus Three </Button>{' '}
-          <Button onClick={handleDelete} outline color="secondary">Focus Two </Button>{' '}
-          <Button onClick={handleDelete} outline color="secondary">Focus One </Button>{' '}
-  
           <form id='focus_section'>
-            <p className='text'>Welcome to <b>My Focus</b>! </p>
-            <p className='text' >What're you focusing on right now?</p>
-            <input id='focus_field' placeholder='add a new focus' type='text'></input>
+            <p className='text'>What's the focus for today?</p>
+            <input id='focus_field' placeholder='add a new focus...' type='text'></input>
           </form>
-
-          <i className="text_slant">To delete a focus, click it! (Limit: 3)</i>
+          <p className='text'> or select one here!</p>
+          <Button onClick={handleClick} outline color="secondary">React </Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Redux </Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Mongo DB </Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Express </Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Authentication </Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Whiteboarding</Button>{' '}
+          {/* <i className="text_slant">To delete a focus, click it! (Limit: 3)</i> */}
        </Container>
       </Jumbotron>
 
