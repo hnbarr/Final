@@ -13,11 +13,11 @@ const Welcome = (props) => {
     <div>
       <Jumbotron className='jumbo' fluid>
         <Container fluid>
-          <h1 className="display-3">Bye, Heather.</h1>
-          <h4>Just give up on this already, you're going nowhere :(</h4>
+          <h1 className="display-3">Pup n Go</h1>
+          <h4>Here we can find austin dog-friendly bars, restaurants, parks and trails! </h4>
           <form id='focus_section'>
-            <p className='text'>What's the focus for today?</p>
-            <input id='focus_field' placeholder='add a new focus...' type='text'></input>
+            {/* <p className='text'></p> */}
+            <input id='focus_field' placeholder='anything special you looking for?' type='text'></input>
           </form>
           <p className='text'> or select one here!</p>
           {/* <Button onClick={handleClick} outline color="secondary">React </Button>{' '}
