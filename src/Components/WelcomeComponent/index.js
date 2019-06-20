@@ -20,12 +20,12 @@ const Welcome = (props) => {
             <input id='focus_field' placeholder='add a new focus...' type='text'></input>
           </form>
           <p className='text'> or select one here!</p>
-          <Button onClick={handleClick} outline color="secondary">React </Button>{' '}
+          {/* <Button onClick={handleClick} outline color="secondary">React </Button>{' '}
           <Button onClick={handleClick} outline color="secondary">Redux </Button>{' '}
           <Button onClick={handleClick} outline color="secondary">Mongo DB </Button>{' '}
           <Button onClick={handleClick} outline color="secondary">Express </Button>{' '}
           <Button onClick={handleClick} outline color="secondary">Authentication </Button>{' '}
-          <Button onClick={handleClick} outline color="secondary">Whiteboarding</Button>{' '}
+          <Button onClick={handleClick} outline color="secondary">Whiteboarding</Button>{' '} */}
           {/* <i className="text_slant">To delete a focus, click it! (Limit: 3)</i> */}
        </Container>
       </Jumbotron>
